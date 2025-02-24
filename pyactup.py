@@ -1413,7 +1413,7 @@ class Memory(dict):
         If only one or two of *function*, *weight* and *derivatve* are supplied, they
         changed without changing those not supplied; the initial defaults are ``True`` for
         *function*, ``1`` for *weight*, and ``None`` for *derivative*. If none
-        of*function*, *weight* nor *derivative* are supplied all are removed, and these
+        of *function*, *weight* nor *derivative* are supplied all are removed, and these
         *attributes* will no longer have an associated similarity computation, and will be
         matched only exactly.
 
