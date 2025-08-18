@@ -553,6 +553,17 @@ def test_activation_history():
     assert isclose(m.activation_history[1]["base_level_activation"], -1.1989476363991853)
     assert isclose(m.activation_history[1]["extra_activation"], -1)
     assert isclose(m.activation_history[1]["activation"], -2.1989476363991853)
+    # Regression test to rule out an old, subtle bug
+    m = Memory(temperature=1, noise=0)
+    m.activation_history = True
+    m.learn({"a":1, "b":1})
+    m.advance(0.47)
+    m.learn({"a":1, "b":2})
+    m.advance(0.1)
+    m.retrieve({"a":1})
+    assert len(m.activation_history) == 2
+    assert not isclose(m.activation_history[0]["base_level_activation"],
+                       m.activation_history[1]["base_level_activation"])
     def setup_partial(m, fn):
         m.similarity(["x", "y"], fn)
         m.learn({"w": 0, "x": 0, "y": 0, "z": 0})
