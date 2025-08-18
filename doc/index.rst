@@ -81,9 +81,10 @@ which comes packaged with Python itself, so if you installed Python
 you should have it available.
 
 The PyACTUp sources are available
-at `https://github.org/dfmorrison/pyactup/ <https://github.org/dfmorrison/pyactup/>`_.
+at `https://github.com/cmu-psych-fms/pyactup/ <https://github.com/cmu-psych-fms/pyactup/>`_.
 This document is also available
-at `https://dfmorrison.github.io/pyactup-documentation/ <https://dfmorrison.github.io/pyactup-documentation/>`.
+at `https://cmu-psych-fms.github.io/fms/pyactup/ <https://cmu-psych-fms.github.io/fms/pyactup/>`_.
+
 
 Mailing List
 ============

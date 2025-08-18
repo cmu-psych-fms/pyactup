@@ -18,7 +18,7 @@ jaraco.classes==3.2.3
 jeepney==0.8.0
 Jinja2==3.1.2
 keyring==23.13.1
--e git+ssh://git@github.com/dfmorrison/pyactup.git@5813c30c5bcd30ef61a3d996e5c1b4bab9196ca0#egg=lisp
+# -e git+ssh://git@github.com/dfmorrison/pyactup.git@5813c30c5bcd30ef61a3d996e5c1b4bab9196ca0#egg=lisp
 MarkupSafe==2.1.1
 more-itertools==9.0.0
 numpy==1.24.1
@@ -27,7 +27,7 @@ pep517==0.13.0
 pkginfo==1.9.5
 pluggy==1.0.0
 prettytable==3.5.0
--e git+ssh://git@github.com/dfmorrison/pyactup.git@5813c30c5bcd30ef61a3d996e5c1b4bab9196ca0#egg=pyactup
+# -e git+ssh://git@github.com/dfmorrison/pyactup.git@5813c30c5bcd30ef61a3d996e5c1b4bab9196ca0#egg=pyactup
 pycparser==2.21
 Pygments==2.14.0
 pylru==1.2.1

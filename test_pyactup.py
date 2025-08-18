@@ -1239,10 +1239,10 @@ def test_print_chunks(tmp_path):
         del line["chunk name"]
     assert {'chunk contents': "'a': 0.3, 'd': 'right', 'u': 0.5",
             'chunk created at': '0', 'chunk reference count': '3',
-            'chunk references': '0, 0, 1'} in entries
+            'chunk references': '0.0, 0.0, 1.0'} in entries
     assert {'chunk contents': "'a': 0.5, 'd': 'left', 'u': 0.3",
             'chunk created at': '0', 'chunk reference count': '1',
-            'chunk references': '0'} in entries
+            'chunk references': '0.0'} in entries
 
 def test_salience():
     def sim(x, y):

@@ -37,7 +37,7 @@ may be strictly algorithmic, may interact with human subjects, or may be embedde
 sites.
 """
 
-__version__ = "2.2.4.dev1"
+__version__ = "2.2.4.dev2"
 
 if "dev" in __version__:
     print("PyACTUp version", __version__)
@@ -901,7 +901,7 @@ class Memory(dict):
                 chunk._references.resize(REFERENCES_FACTOR * chunk._references.size,
                                          refcheck=False)
             chunk._references[chunk._reference_count] = self._time
-        elif  chunk._reference_count < self._optimized_learning:
+        elif chunk._reference_count < self._optimized_learning:
             if chunk._reference_count >= chunk._references.size:
                 chunk._references.resize(min(REFERENCES_FACTOR * chunk._references.size,
                                              self._optimized_learning),
@@ -1478,7 +1478,8 @@ class Chunk(dict):
         self.update(content)
         self._creation = memory._time
         self._references = np.empty(1 if self._memory._optimized_learning != 0 else 0,
-                                    dtype=np.int32)
+                                    # dtype=np.int32)
+                                    dtype=np.float64)
         self._reference_count = 0
 
     def __repr__(self):
