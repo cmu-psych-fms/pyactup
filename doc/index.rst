@@ -576,6 +576,12 @@ The result of running this is
 Changes to PyACTUp
 ==================
 
+Changes between versions 2.2.3 and 2.2.4
+----------------------------------------
+
+* Fixed a bug involving fractional times.
+
+
 Changes between versions 2.2.2 and 2.2.3
 ----------------------------------------
 
