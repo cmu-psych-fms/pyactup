@@ -1,4 +1,4 @@
-PyACTUp version 2.2.4
+PyACTUp version 2.2.5
 *********************
 
 .. note::
