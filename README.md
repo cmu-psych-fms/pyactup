@@ -3,8 +3,8 @@ ACT-R cognitive architecture’s Declarative Memory, suitable for
 incorporating into other Python models and applications. Its design
 is inspired by the ACT-UP cognitive modeling toolbox.
 
-There is [online documentation of PyACTUp](http://koalemos.psy.cmu.edu/pyactup/),
-and the [sources](https://github.com/dfmorrison/pyactup/) are on GitHub.
+There is [online documentation of PyACTUp](https://cmu-psych-fms.github.io/fms/pyactup/),
+and the [sources](https://github.com/cmu-psych-fms/pyactup/) are on GitHub.
 
 The latest version of PyACTUp can be download and installed from PyPi with pip:
 
