@@ -21,7 +21,7 @@ The `-e` option to `pip install` can be useful for ensuring your new version of 
 
 Depending upon the changes you are making, some further things to consider:
 
-- Should your changes also be reflected in the `activationₕistory`?
+- Should your changes also be reflected in the `activation_history`?
 
 - Do your changes work correctly both with and without indexing?
 

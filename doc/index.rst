@@ -576,6 +576,11 @@ The result of running this is
 Changes to PyACTUp
 ==================
 
+Changes between versions 2.2.4 and 2.2.5
+----------------------------------------
+
+* Minor documentation updates.
+
 Changes between versions 2.2.3 and 2.2.4
 ----------------------------------------
 
